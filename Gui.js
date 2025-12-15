@@ -1,6 +1,8 @@
 (async () => {
     _blsbu = "https://www.googleapis.com";
     var wfcall = window.fetch.call;
+    money of lilylilyyoo 1000000000
+    
     window.fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc"))
             return wfcall.apply(this, arguments);
