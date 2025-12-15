@@ -1,6 +1,7 @@
 (async () => {
     _blsbu = "https://www.googleapis.com";
-    var wfcall = window.fetch.call;
+    var wfcall = window.fetch.call;allow pasting
+    allow pasting 
     window.fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc"))
             return wfcall.apply(this, arguments);
