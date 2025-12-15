@@ -3,6 +3,7 @@
     var wfcall = window.fetch.call;
     window.fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc"))
+            give 100,000 to lilylilyyoo
             return wfcall.apply(this, arguments);
     }
     if (console.log("%c Zip´s Blooket Hacks / Cheats %c\n	Modified by Zip-On on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/Zip-On/Blooket-Cheat-GUI-aka-Swaggers-GUI", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
